@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "echo 'Im working'",
-    "watch": "tsc -w -p",
+    "compile": "tsc",
     "serve": "node index.js"
   },
   "author": "Crinax",
