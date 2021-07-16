@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for Vue frontent",
+  "main": "index.ts",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/ws": "^7.4.6",
+    "ws": "^7.5.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "scripts": {
+    "test": "echo 'Im working'",
+    "watch": "tsc -w -p",
+    "serve": "node index.js"
+  },
+  "author": "Crinax",
+  "license": "ISC",
+  "optionalDependencies": {
+    "utf-8-validate": "^5.0.5"
+  }
+}
